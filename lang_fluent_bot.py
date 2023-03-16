@@ -16,7 +16,7 @@ def echo(update: Update, context: CallbackContext) -> None:
     """
 
     # Print to console
-    print(f'{update.message.from_user.first_name} wrote {update.message.text}')
+    print(f'user: {update.message.from_user.first_name} sent a message')
 
     if update.message.text:
         context.bot.send_message(
