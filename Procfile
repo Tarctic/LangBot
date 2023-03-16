@@ -1,1 +1,1 @@
-web: python lang_fluent_bot.py
+release: python lang_fluent_bot.py
