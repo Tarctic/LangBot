@@ -47,7 +47,7 @@ def contexter(userMsg):
 
     saver = saver[-LIMIT:]
     
-    return "\n".join(saver)+"Chatbot: "
+    return "\n".join(saver)+"LangBot: "
 
 def gpt(update: Update, context: CallbackContext) -> None:
     """
@@ -68,7 +68,7 @@ def gpt(update: Update, context: CallbackContext) -> None:
 
     if contextAware:
         global saver
-        saver.append("Chatbot: " + reply + "\n")
+        saver.append("LangBot: " + reply + "\n")
 
         # for i in saver:
         #     print(i)
