@@ -1,1 +1,1 @@
-release: python lang_fluent_bot.py
+worker: python lang_fluent_bot.py
